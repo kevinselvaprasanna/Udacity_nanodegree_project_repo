@@ -21,6 +21,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bappmat= (Button)findViewById(R.id.bappmat);
         bubiq = (Button)findViewById(R.id.bubiquit);
         bcap = (Button)findViewById(R.id.bcapstone);
+
+        bmov.setOnClickListener(this);
+        bhawk.setOnClickListener(this);
+        bbig.setOnClickListener(this);
+        bappmat.setOnClickListener(this);
+        bubiq.setOnClickListener(this);
+        bcap.setOnClickListener(this);
     }
 
     @Override

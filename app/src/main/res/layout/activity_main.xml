@@ -12,20 +12,29 @@
     tools:context="com.kevinselvarprasanna.nanodegree_udacity.MainActivity">
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Popular Movies"
         android:id="@+id/bmovies"
         android:layout_gravity="center"
         android:background="@color/colorButton"
         android:layout_marginBottom="10dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         />
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Stock Hawk"
         android:id="@+id/bstock"
         android:layout_gravity="center"
         android:background="@color/colorButton"
@@ -34,7 +43,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Build it Bigger"
         android:id="@+id/bbig"
         android:layout_gravity="center"
         android:background="@color/colorButton"
@@ -43,7 +52,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Make Your App Material"
         android:id="@+id/bappmat"
         android:layout_gravity="center"
         android:background="@color/colorButton"
@@ -52,7 +61,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Go Ubiquitous"
         android:id="@+id/bubiquit"
         android:layout_gravity="center"
         android:background="@color/colorButton"
@@ -61,7 +70,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Capstone"
         android:id="@+id/bcapstone"
         android:layout_gravity="center"
         android:background="@color/colorButton"
